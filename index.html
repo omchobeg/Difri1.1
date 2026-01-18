@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiFri Browser – Fast. Clean. Modern.</title>
+  <meta name="description" content="Download DiFri Browser – modern, lightweight, and clean." />
+
+  <link rel="icon" type="image/png" href="difri.png" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="newsModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>What's New in DiFri 🧠</h2>
+      <ul class="news-list">
+        <li><strong>Aero Glass UI:</strong> Beautifully refined blur effects.</li>
+        <li><strong>AI Hub:</strong> Direct access to ChatGPT and Claude.</li>
+        <li><strong>Compatibility:</strong> Now supports Windows 7, 8, 10, and 11.</li>
+      </ul>
+      <p style="font-size: 13px; color: var(--muted); margin-bottom: 20px;">Join our Discord to suggest new features!
+      </p>
+      <button class="btn-primary" id="closeModalBtn">Let's Go!</button>
+    </div>
+  </div>
+
+  <header>
+    <div class="logo">🧠 <span>DiFri</span> Browser</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#demo">Demo</a>
+      <a href="#about">About</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Browse smarter with DiFri</h1>
+    <p>DiFri is a modern, lightweight desktop browser with a clean design, fast performance, and built-in AI tools.</p>
+    <div class="cta-buttons">
+      <a href="DiFri_setup.exe" class="download-btn" download>
+        <span>⬇</span> Download for Windows
+      </a>
+      <a class="btn-secondary" href="#features">Learn More</a>
+    </div>
+  </section>
+
+  <h2 class="section-title" id="features">Features</h2>
+  <section class="features">
+    <div class="card">
+      <h3>⚡ Ultra Fast</h3>
+      <p>Optimized Chromium engine with smooth performance.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Aero Glass UI</h3>
+      <p>Beautiful glassmorphism inspired by Aero & Frutiger Aero.</p>
+    </div>
+    <div class="card">
+      <h3>🤖 AI Hub</h3>
+      <p>Quick access to ChatGPT, Copilot, Claude, and Perplexity.</p>
+    </div>
+    <div class="card">
+      <h3>🔒 Privacy</h3>
+      <p>No trackers, no telemetry, full control.</p>
+    </div>
+  </section>
+
+  <h2 class="section-title" id="demo">Demo</h2>
+  <section class="demo">
+    <div class="card">
+      <h3>New Tab</h3>
+      <p>Modern speed dial with shortcuts & AI tools.</p>
+    </div>
+    <div class="card">
+      <h3>Dark Mode</h3>
+      <p>Perfect for night browsing with soft contrast.</p>
+    </div>
+    <div class="card">
+      <h3>Smooth Animations</h3>
+      <p>Butter-smooth UI transitions everywhere.</p>
+    </div>
+  </section>
+
+  <h2 class="section-title" id="about">About DiFri</h2>
+  <section class="about">
+    <div class="card">
+      <p><strong>DiFri</strong> is an open source browser project focused on speed, design, and simplicity.</p>
+    </div>
+    <div class="card">
+      <div class="creator-info">
+        <div class="creator-avatar">👨‍💻</div>
+        <div>
+          <h3 style="margin: 0; font-size: 18px;">Built by Omer</h3>
+          <p style="margin: 4px 0 0; font-size: 14px; color: var(--muted);">Indie Developer</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+        <a href="discord://-/users/idk201167" id="discordLink" class="discord-btn">
+          Message me on Discord
+        </a>
+        <p id="copyStatus"
+          style="font-size: 12px; color: var(--accent); margin-top: 10px; opacity: 0; transition: 0.3s; text-align: center;">
+          Username "idk201167" copied! Opening Discord...
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <p>Inspired by classic Aero aesthetics combined with modern dark design. Report bugs on Discord!</p>
+    </div>
+  </section>
+
+  <section id="download" class="download">
+    <h2>Ready to switch?</h2>
+    <p class="muted">Windows (32 and 64-bit)</p>
+
+    <div class="cta-buttons">
+      <a href="DiFri_setup.exe" class="download-btn" id="mainDownloadBtn" download>
+        <span>⬇</span> Download for Windows
+      </a>
+    </div>
+
+    <p style="margin-top:24px; font-size:13px; color:var(--muted)">
+      File size: 128 MB • Windows: 7, 8, 10, 11
+    </p>
+  </section>
+  <footer>
+    © 2026 DiFri Browser. Built with ❤️ by <strong>Omer</strong>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
